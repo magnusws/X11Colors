@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "X11Colors",
             dependencies: []),
-        .testTarget(
-            name: "X11ColorsTests",
-            dependencies: ["X11Colors"]),
     ]
 )
